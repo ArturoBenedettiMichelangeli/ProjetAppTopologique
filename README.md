@@ -11,19 +11,20 @@ L'architecture du SNN repose sur une généralisation des réseaux de neurones c
 
 La méthodologie d'entraînement repose sur l'application d'un masque qui occulte 70% des données de collaboration. Le réseau est entraîné à reconstruire le signal original en diffusant l'information connue à travers le complexe. Pour garantir la stabilité numérique face aux puissances de matrices, l'implémentation utilise une normalisation spectrale et une technique de gradient clipping. Les résultats obtenus démontrent une convergence efficace du modèle. Partant d'une perte initiale élevée, le réseau parvient à une erreur absolue moyenne (MAE) normalisée d'environ 1.23 après 300 époques, comme illustré par les logs d'entraînement suivants :
 
-Epoque   0 | Loss: 3269.720194 | MAE Imputation (Norm): 23.039417
-Epoque  20 | Loss: 2504.157778 | MAE Imputation (Norm): 20.323193
-Epoque  40 | Loss: 1841.996479 | MAE Imputation (Norm): 17.601517
-Epoque  60 | Loss: 1282.515075 | MAE Imputation (Norm): 14.875012
-Epoque  80 | Loss: 825.024630 | MAE Imputation (Norm): 12.152148
-Epoque 100 | Loss: 468.867155 | MAE Imputation (Norm): 9.439717
-Epoque 120 | Loss: 213.414313 | MAE Imputation (Norm): 6.728693
-Epoque 140 | Loss: 58.066176 | MAE Imputation (Norm): 4.047900
-Epoque 160 | Loss: 2.250043 | MAE Imputation (Norm): 1.529460
-Epoque 180 | Loss: 2.046531 | MAE Imputation (Norm): 1.375724
-Epoque 200 | Loss: 1.966143 | MAE Imputation (Norm): 1.349909
-Epoque 220 | Loss: 1.889019 | MAE Imputation (Norm): 1.324619
-Epoque 240 | Loss: 1.815028 | MAE Imputation (Norm): 1.299893
-Epoque 260 | Loss: 1.744041 | MAE Imputation (Norm): 1.275672
-Epoque 280 | Loss: 1.675936 | MAE Imputation (Norm): 1.251970
-Epoque 300 | Loss: 1.610595 | MAE Imputation (Norm): 1.231575
+* Epoque   0 | Loss: 3269.720194 | MAE Imputation (Norm): 23.039417
+* Epoque  20 | Loss: 2504.157778 | MAE Imputation (Norm): 20.323193
+* Epoque  40 | Loss: 1841.996479 | MAE Imputation (Norm): 17.601517
+* Epoque  60 | Loss: 1282.515075 | MAE Imputation (Norm): 14.875012
+* Epoque  80 | Loss: 825.024630 | MAE Imputation (Norm): 12.152148
+* Epoque 100 | Loss: 468.867155 | MAE Imputation (Norm): 9.439717
+* Epoque 120 | Loss: 213.414313 | MAE Imputation (Norm): 6.728693
+* Epoque 140 | Loss: 58.066176 | MAE Imputation (Norm): 4.047900
+* Epoque 160 | Loss: 2.250043 | MAE Imputation (Norm): 1.529460
+* Epoque 180 | Loss: 2.046531 | MAE Imputation (Norm): 1.375724
+* Epoque 200 | Loss: 1.966143 | MAE Imputation (Norm): 1.349909
+* Epoque 220 | Loss: 1.889019 | MAE Imputation (Norm): 1.324619
+* Epoque 240 | Loss: 1.815028 | MAE Imputation (Norm): 1.299893
+* Epoque 260 | Loss: 1.744041 | MAE Imputation (Norm): 1.275672
+* Epoque 280 | Loss: 1.675936 | MAE Imputation (Norm): 1.251970
+* Epoque 300 | Loss: 1.610595 | MAE Imputation (Norm): 1.231575
+
