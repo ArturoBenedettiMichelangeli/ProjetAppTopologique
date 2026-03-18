@@ -1,7 +1,7 @@
 Fichiers présents dans le repo:
 
-* CNN_scratch.py : notre implémentation "from scratch" d'une couche de convolution classique, ce qui nous as permis de base pour généraliser aux couches de convolutions simpliciales
-* com-dblp.ungraph : le graphe sur lequel on a effectué nos tests
+* CNN_scratch.py : notre implémentation *from scratch* d'une couche de convolution classique, ce qui nous as permis de base pour généraliser aux couches de convolutions simpliciales
+* com-dblp.ungraph.txt : le graphe sur lequel on a effectué nos tests
 * ce présent README
 * SNN_scratch.py : la généralisation de CNN_scratch.py aux complexes simpliciaux
 * snn_implementation.py : le code final, implémentant le papier
