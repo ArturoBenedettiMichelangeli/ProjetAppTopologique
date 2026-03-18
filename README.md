@@ -6,7 +6,7 @@ Fichiers présents dans le repo:
 * SNN_scratch.py : la généralisation de CNN_scratch.py aux complexes simpliciaux
 * snn_implementation.py : le code final, implémentant le papier
 
-Utilisation des LLM dans le code:
+Utilisation des LLM pour ce projet:
 * pour comprendre le papier
 * pour optimiser la stabilité numérique du modèle (notamment l'initialisation des poids, le gradient clipping et la normalisation spectrale du Laplacien)
 * pour l'implémentation de l'algorithme d'extraction des triangles afin d'en améliorer l'efficacité computationnelle
