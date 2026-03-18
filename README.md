@@ -33,5 +33,5 @@ La méthodologie d'entraînement repose sur l'application d'un masque qui occult
 * Epoque 220 | Loss: 1.889019 | MAE Imputation (Norm): 1.324619
 * Epoque 240 | Loss: 1.815028 | MAE Imputation (Norm): 1.299893
 * Epoque 260 | Loss: 1.744041 | MAE Imputation (Norm): 1.275672
-*Epoque 280 | Loss: 1.675936 | MAE Imputation (Norm): 1.251970
-*Epoque 300 | Loss: 1.610595 | MAE Imputation (Norm): 1.231575
+* Epoque 280 | Loss: 1.675936 | MAE Imputation (Norm): 1.251970
+* Epoque 300 | Loss: 1.610595 | MAE Imputation (Norm): 1.231575
